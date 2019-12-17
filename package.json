@@ -1,0 +1,21 @@
+{
+  "name": "alpha-prototype-starter",
+  "version": "1.0.0",
+  "description": "This is the starting point for front end prototypes in project Alpha.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10"
+  }
+}
