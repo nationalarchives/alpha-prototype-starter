@@ -22,3 +22,11 @@ Use these steps to get up and running
 6. Start the application with `flask run`
 7. See the command line for the URL to visit
 8. When finished run `deactivate` from the virtual environment
+
+For front end assets:
+
+In a _new terminal_ run these commands
+
+9. Install Gulp CLI globally with `npm install --global gulp-cli` (Note: you only need to do this once)
+10. Install Node dependencies with `npm install`
+11. Start Gulp with `npm start` 
