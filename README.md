@@ -8,6 +8,7 @@ Included in this repository is:
 
 * The latest version (0.0.4) of the [front end toolkit](https://github.com/nationalarchives/tna-frontend-toolkit) providing access to all existing [core patterns](https://cdn.nationalarchives.gov.uk/toolkit/index.html)  
     * via the toolkit you have access to the Bootstrap 4 grid, along with [other utilities](https://github.com/nationalarchives/tna-frontend-toolkit/blob/develop/sass/navi.scss) 
+* GulpJS for compiling SASS and transpiling JavaScript
 
 
 ## Development machine configuration
