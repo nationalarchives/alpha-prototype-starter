@@ -1,8 +1,9 @@
 'use strict';
 
 const gulp = require('gulp');
+const { watch, parallel } = require('gulp');
 const sass = require('gulp-sass');
-const { watch } = require('gulp');
+const babel = require('gulp-babel');
 
 function styles(cb) {
     gulp.src('./app/static/styles/src/*.scss')
@@ -11,6 +12,16 @@ function styles(cb) {
     cb();
 }
 
+function scripts(cb) {
+    gulp.src('./app/static/scripts/src/*.js')
+        .pipe(babel({ presets: ['@babel/env'] }))
+        .pipe(gulp.dest('./app/static/scripts/dist/'))
+    cb();
+}
+
+exports.run = parallel(scripts, styles);
+
 exports.default = function () {
     watch('./app/static/styles/src/*.scss', styles);
+    watch('./app/static/scripts/src/*.js', scripts);
 };

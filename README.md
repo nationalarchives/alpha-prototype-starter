@@ -29,4 +29,4 @@ In a _new terminal_ run these commands
 
 9. Install Gulp CLI globally with `npm install --global gulp-cli` (Note: you only need to do this once)
 10. Install Node dependencies with `npm install`
-11. Start Gulp with `npm start` 
+11. Start Gulp (a run-through of tasks followed by a watch) with `npm start` 

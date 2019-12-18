@@ -1,2 +1,2 @@
-let a = 'Project Alpha';
+let a = 'Project Alpha: Starter kit';
 console.log(a);
