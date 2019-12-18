@@ -8,7 +8,6 @@ Included in this repository is:
 
 * The latest version (0.0.4) of the [front end toolkit](https://github.com/nationalarchives/tna-frontend-toolkit) providing access to all existing [core patterns](https://cdn.nationalarchives.gov.uk/toolkit/index.html)  
     * via the toolkit you have access to the Bootstrap 4 grid, along with [other utilities](https://github.com/nationalarchives/tna-frontend-toolkit/blob/develop/sass/navi.scss) 
-* [WebPack](https://webpack.js.org) for asset bundling, including the Babel loader to permit transpilation from ESNext
 
 
 ## Development machine configuration
@@ -23,10 +22,3 @@ Use these steps to get up and running
 6. Start the application with `flask run`
 7. See the command line for the URL to visit
 8. When finished run `deactivate` from the virtual environment
-
-For front end assets:
-
-In a _new terminal_ run these commands
-
-9. Install Node dependencies with `npm install`
-10. Start webpack with `npm start` 
