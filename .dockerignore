@@ -1,0 +1,10 @@
+.vscode
+.git
+.gitignore
+.dockerignore
+
+app/secrets.py
+
+venv
+.venv
+.env
